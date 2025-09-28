@@ -1,0 +1,15 @@
+{
+  "name": "chemaclass/pong-phel",
+  "require": {
+    "phel-lang/phel-lang": "^0.22",
+    "chemaclass/phel-cli-gui": "^0.3"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "config": {
+    "platform": {
+      "php": "8.3"
+    }
+  }
+}
