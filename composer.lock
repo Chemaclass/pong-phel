@@ -4,33 +4,35 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a54ea5e314b4d6d155a1f0b50db0f56e",
+    "content-hash": "1273c9ea9f347e15dee839ab09c1f102",
     "packages": [
         {
             "name": "chemaclass/phel-cli-gui",
-            "version": "0.3.1",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Chemaclass/phel-cli-gui.git",
-                "reference": "27ba34ffd73455fea7fb46ef78b28dde53976c02"
+                "reference": "dd36372fdb04ed91c61dd2a51c9a097f717b5c17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Chemaclass/phel-cli-gui/zipball/27ba34ffd73455fea7fb46ef78b28dde53976c02",
-                "reference": "27ba34ffd73455fea7fb46ef78b28dde53976c02",
+                "url": "https://api.github.com/repos/Chemaclass/phel-cli-gui/zipball/dd36372fdb04ed91c61dd2a51c9a097f717b5c17",
+                "reference": "dd36372fdb04ed91c61dd2a51c9a097f717b5c17",
                 "shasum": ""
             },
             "require": {
                 "ext-pcntl": "*",
+                "ext-posix": "*",
                 "ext-readline": "*",
-                "phel-lang/phel-lang": ">=0.15",
-                "php": ">=8.2",
-                "symfony/console": "^7.1"
+                "phel-lang/phel-lang": "^0.22",
+                "php": ">=8.3",
+                "symfony/console": "^7.3"
             },
             "require-dev": {
                 "roave/security-advisories": "dev-latest",
-                "symfony/var-dumper": "6.4"
+                "symfony/var-dumper": "7.2"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -43,7 +45,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jose Maria Valera Reales",
+                    "name": "Jose M Valera Reales",
                     "email": "chemaclass@outlook.es",
                     "homepage": "https://chemaclass.com"
                 }
@@ -58,9 +60,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Chemaclass/phel-cli-gui/issues",
-                "source": "https://github.com/Chemaclass/phel-cli-gui/tree/0.3.1"
+                "source": "https://github.com/Chemaclass/phel-cli-gui/tree/main"
             },
-            "time": "2024-08-15T14:19:47+00:00"
+            "time": "2025-09-28T17:47:39+00:00"
         },
         {
             "name": "gacela-project/container",
@@ -2058,6 +2060,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "chemaclass/phel-cli-gui": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,
